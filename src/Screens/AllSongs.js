@@ -22,7 +22,6 @@ class AllSongs extends React.Component
                     await ref.getDownloadURL()
                         .then((url) =>
                         {
-                            console.log('lahot : ', url );
                             this.new_data_array.push({ name: ref.name, url: url });
                             if (this.new_data_array.length === 6)//load the component when all the songs are added to the array.
                             {
@@ -67,7 +66,7 @@ class AllSongs extends React.Component
             :
             <div className="all-songs">
                 <h1 className="all-songs-heading">
-                    All Songs
+                    Playlist
                 </h1>
                 <div className="all-songs-list">
                     {this.state.all_songs_list.map((item, index) =>

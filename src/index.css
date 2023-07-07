@@ -3,13 +3,15 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
 		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
 		"Helvetica Neue", sans-serif;
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-image: url("./giphy.gif");
+	background-image: url("./shipaway.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+	overflow-y: hidden;
 }
 
 code {
@@ -31,8 +33,12 @@ code {
 	width: min-content;
 	padding: 20px 10px 5px 10px;
 	border-radius: 20px;
-	background-image: url("https://image.freepik.com/free-vector/dark-background-gradient-geometric-models_23-2148430535.jpg");
-	box-shadow: 0px 0px 12px 2px black;
+	/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
     background-size: cover;
     position:relative;
     transition: transform ease-in-out 0.2s;
@@ -49,7 +55,7 @@ code {
 	width: 350px;
 	height: 350px;
 	margin: 0px auto;
-	background-image: url("./background.jpg");
+	background-image: url("./keyboard.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -181,11 +187,14 @@ code {
 }
 
 .screen-menu > .selected {
-	background-color: rgb(89, 89, 255);
+	background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
 }
 
 .app-logo {
-	background-color: #ff0053;
+	background-color: #000000;
+background-image: linear-gradient(326deg, #000000 0%, #ce203c 74%);
+
 	color: white;
 	font-size: large;
 }
@@ -200,7 +209,9 @@ code {
 	overflow: hidden;
 }
 .screen-music {
-	background-color: #ffb500;
+	background-color: #eec0c6;
+background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+
 	height: 100%;
 	width: 100%;
 	box-sizing: border-box;
@@ -231,13 +242,15 @@ code {
 }
 .all-songs-heading {
 	padding-bottom: 10px;
-	background-color: #6610f2;
+	background-color: #310e68;
+	background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
 	margin: 0px;
 	height: 10%;
 	color: white;
 }
 .all-songs-list {
-	background-color: #343a40;
+	background-color: #2b4162;
+	background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
 	height: 86%;
 }
 .all-songs-list > div {
@@ -254,7 +267,7 @@ code {
 {
     0%
     {
-        color:orangered;
+        color:white;
     }
     50%
     {
@@ -262,27 +275,30 @@ code {
     }
     100%
     {
-        color:orangered;
+        color:white;
     }
 }
 
 .instruction-all-songs {
 	height: 20%;
-	background-color: #17a2b8;
+	background-color: #310e68;
+	background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
     color: white;
-
     animation-name: highlight;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-play-state: running;
 }
 .selected-song {
-	background-color: #007bff;
+	background-color: #fce055;
+	background-image: linear-gradient(319deg, #fce055 0%, #256eff 37%, #46237a 100%);
+	
 }
 
 /* MUSIC SCREEN //////////////////////////////////////////////////////////////////////////////////////////// */
 .screen-music > h2 {
-	background-color: rgb(66, 66, 66);
+	background-color: #2b4162;
+	background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);	
 	margin: 0px;
 	margin-bottom: 10px;
 	padding: 10px;
@@ -293,7 +309,7 @@ code {
 	width: 50%;
 	height: 50%;
 	margin-left: auto;
-	box-shadow: 0px 0px 12px 5px grey;
+	box-shadow: 0px 0px 12px 5px rgb(86, 190, 166);
 	margin-right: auto;
 	border-radius: 20px;
 }
@@ -322,13 +338,13 @@ code {
 		background-color: #ff1d58;
 	}
 	20% {
-		background-color: #f75990;
+		background-color: #b10018;
 	}
 	40% {
-		background-color: #fff685;
+		background-color: #8f00b6;
 	}
 	60% {
-		background-color: #00ddff;
+		background-color: #5900ff;
 	}
 	80% {
 		background-color: #0049b7;
