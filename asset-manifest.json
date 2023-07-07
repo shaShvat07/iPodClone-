@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/iPodClone-/static/css/main.087e9ec3.chunk.css",
+    "main.js": "/iPodClone-/static/js/main.f794b659.chunk.js",
+    "main.js.map": "/iPodClone-/static/js/main.f794b659.chunk.js.map",
+    "runtime-main.js": "/iPodClone-/static/js/runtime-main.d489254d.js",
+    "runtime-main.js.map": "/iPodClone-/static/js/runtime-main.d489254d.js.map",
+    "static/js/2.87501b5f.chunk.js": "/iPodClone-/static/js/2.87501b5f.chunk.js",
+    "static/js/2.87501b5f.chunk.js.map": "/iPodClone-/static/js/2.87501b5f.chunk.js.map",
+    "index.html": "/iPodClone-/index.html",
+    "precache-manifest.521a9188237f4f57beb3dbd78ec77e9c.js": "/iPodClone-/precache-manifest.521a9188237f4f57beb3dbd78ec77e9c.js",
+    "service-worker.js": "/iPodClone-/service-worker.js",
+    "static/css/main.087e9ec3.chunk.css.map": "/iPodClone-/static/css/main.087e9ec3.chunk.css.map",
+    "static/js/2.87501b5f.chunk.js.LICENSE.txt": "/iPodClone-/static/js/2.87501b5f.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/iPodClone-/static/media/background.f1b639b7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d489254d.js",
+    "static/js/2.87501b5f.chunk.js",
+    "static/css/main.087e9ec3.chunk.css",
+    "static/js/main.f794b659.chunk.js"
+  ]
+}
